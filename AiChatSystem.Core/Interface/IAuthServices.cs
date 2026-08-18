@@ -1,11 +1,11 @@
-﻿using AiChatSystem.Core.Services.AuthService.DTOs;
+﻿using AiChatSystem.Core.DTOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AiChatSystem.Core.Services.AuthService.Interfaces
+namespace AiChatSystem.Core.Interface
 {
     public interface IAuthServices
     {

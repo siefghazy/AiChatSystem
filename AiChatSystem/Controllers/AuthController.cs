@@ -1,5 +1,5 @@
-﻿using AiChatSystem.Core.Services.AuthService.DTOs;
-using AiChatSystem.Core.Services.AuthService.Interfaces;
+﻿using AiChatSystem.Core.DTOS;
+using AiChatSystem.Core.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;

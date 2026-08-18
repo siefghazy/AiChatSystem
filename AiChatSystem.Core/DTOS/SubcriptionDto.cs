@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AiChatSystem.Core.Services.SubscriptionService.Dtos
+namespace AiChatSystem.Core.DTOS
 {
     public class SubcriptionDto
     {

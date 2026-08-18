@@ -1,8 +1,8 @@
-﻿using AiChatSystem.Core.Interfaces;
-using AiChatSystem.Core.Services.SubscriptionService.Dtos;
-using AiChatSystem.Core.Services.SubscriptionService.Interfaces;
+﻿using AiChatSystem.Core.DTOS;
+using AiChatSystem.Core.Interface;
 using AiChatSystem.Domain.Entities;
 using AiChatSystem.Domain.Enums;
+using AiChatSystem.Domain.interfaces;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AiChatSystem.Core.Services.SubscriptionService
+namespace AiChatSystem.Core.Services
 {
     public class SubscriptionService : ISubscriptionService
     {

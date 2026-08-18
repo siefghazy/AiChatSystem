@@ -1,5 +1,5 @@
-﻿using AiChatSystem.Core.Services.AuthService.DTOs;
-using AiChatSystem.Core.Services.AuthService.Interfaces;
+﻿using AiChatSystem.Core.DTOS;
+using AiChatSystem.Core.Interface;
 using AiChatSystem.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +13,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AiChatSystem.Core.Services.AuthService
+namespace AiChatSystem.Core.Services
 {
     public class AuthService : IAuthServices
     {

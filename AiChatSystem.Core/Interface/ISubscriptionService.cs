@@ -1,4 +1,4 @@
-﻿using AiChatSystem.Core.Services.SubscriptionService.Dtos;
+﻿using AiChatSystem.Core.DTOS;
 using AiChatSystem.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AiChatSystem.Core.Services.SubscriptionService.Interfaces
+namespace AiChatSystem.Core.Interface
 {
     public interface ISubscriptionService
     {

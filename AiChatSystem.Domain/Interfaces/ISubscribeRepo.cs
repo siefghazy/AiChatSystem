@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AiChatSystem.Core.Interfaces
+namespace AiChatSystem.Domain.interfaces
 {
     public interface ISubscribeRepo
     {

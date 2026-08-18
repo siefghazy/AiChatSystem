@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AiChatSystem.Core.Services.AuthService.DTOs
+namespace AiChatSystem.Core.DTOS
 {
     public class SignUpDto
     {

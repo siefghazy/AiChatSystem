@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AiChatSystem.Core.Services.AuthService.DTOs
+namespace AiChatSystem.Core.DTOS
 {
     public class LoginDto
     {

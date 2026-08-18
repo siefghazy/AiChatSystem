@@ -1,10 +1,7 @@
-using AiChatSystem.Core.Interfaces;
+using AiChatSystem.Core;
 using AiChatSystem.Core.Services;
-using AiChatSystem.Core.Services.AuthService;
-using AiChatSystem.Core.Services.AuthService.Interfaces;
-using AiChatSystem.Core.Services.SubscriptionService;
-using AiChatSystem.Core.Services.SubscriptionService.Interfaces;
 using AiChatSystem.Domain.Entities;
+using AiChatSystem.Domain.interfaces;
 using AiChatSystem.Helpers;
 using AiChatSystem.Infrastructure;
 using AiChatSystem.Infrastructure.Repos.SubscribtionsRepo;
@@ -92,14 +89,9 @@ builder.Logging.AddDebug();
 #endregion
 
 
-#region Repos
-builder.Services.AddScoped<ISubscribeRepo, SubscriptionRepo>();
-#endregion
+builder.Services.AddServices();
 
-#region Services
-builder.Services.AddScoped<ISubscriptionService, SubscriptionService>();
-builder.Services.AddScoped<IAuthServices, AuthService>();
-#endregion
+builder.Services.AddInfrastructure();
 
 
 #region CloudinaryServices

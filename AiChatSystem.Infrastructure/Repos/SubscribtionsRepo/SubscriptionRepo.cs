@@ -1,6 +1,6 @@
-﻿using AiChatSystem.Core.Interfaces;
-using AiChatSystem.Domain.Entities;
+﻿using AiChatSystem.Domain.Entities;
 using AiChatSystem.Domain.Enums;
+using AiChatSystem.Domain.interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

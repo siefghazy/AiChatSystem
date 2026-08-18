@@ -1,5 +1,5 @@
-﻿using AiChatSystem.Core.Services.SubscriptionService.Dtos;
-using AiChatSystem.Core.Services.SubscriptionService.Interfaces;
+﻿using AiChatSystem.Core.DTOS;
+using AiChatSystem.Core.Interface;
 using AiChatSystem.Helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
