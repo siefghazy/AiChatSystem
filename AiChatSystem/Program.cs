@@ -4,7 +4,6 @@ using AiChatSystem.Domain.Entities;
 using AiChatSystem.Domain.interfaces;
 using AiChatSystem.Helpers;
 using AiChatSystem.Infrastructure;
-using AiChatSystem.Infrastructure.Repos.SubscribtionsRepo;
 using CloudinaryDotNet;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -20,15 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 
-#region DBcontextService
-builder.Services.AddDbContext<DBcontext>(options =>
-{
-    options.UseNpgsql(builder.Configuration.GetConnectionString("CONNECTION_STRING"));
-});
-builder.Services.AddIdentity<Tenant, IdentityRole>()
-    .AddEntityFrameworkStores<DBcontext>()
-    .AddDefaultTokenProviders();
-#endregion
+
 
 #region AuthenticationConfiguration
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -87,7 +78,6 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
 #endregion
-
 
 builder.Services.AddServices();
 

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AiChatSystem.Infrastructure.Repos.SubscribtionsRepo
+namespace AiChatSystem.Infrastructure.Repos
 {
     public class SubscriptionRepo : ISubscribeRepo
     {
